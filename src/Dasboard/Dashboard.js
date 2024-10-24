@@ -51,7 +51,7 @@ const Dashboard = () => {
                 {/* Bar Chart for Distribution by Make */}
                 <Grid item xs={12} md={8}>
                     <Paper elevation={3} style={{ padding: '20px' }}>
-                        <Typography variant="h6">Vehicle Distribution by Make</Typography>
+                        <Typography variant="h6">Vehicle Distribution by Month</Typography>
                         <BarChart data={makeDistribution} />
                     </Paper>
                 </Grid>
